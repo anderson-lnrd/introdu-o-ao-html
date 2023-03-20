@@ -1,0 +1,51 @@
+@font-face {
+    font-family: strengthen;
+    src: url(./Strengthen.ttf);
+}
+@font-face {
+    font-family: kremlin;
+    src: url(./kremlin.ttf);
+}
+
+@font-face {
+    font-family: mockery;
+    src: url(./Mockery.ttf);
+}
+
+body{
+    background-color: #E13D21;
+}
+
+h1{
+    font-family: kremlin;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+    color: #F1E9BA;
+}
+h2{
+    color: #F1E9BA;
+    text-align: center;
+    font-family: kremlin;
+}
+
+.vladmir{
+    width: 35%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container img{
+    width: 15%;
+}
+
+figcaption{
+    margin-top: 10px;
+    color: #F1E9BA;
+    text-align: center;
+}
